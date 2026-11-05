@@ -102,4 +102,4 @@ Yes. Set `publishedAfter` to `7 days` and schedule the run weekly.
 
 ## More scrapers
 
-YouTube is one of 14 no-login scrapers by Smoldesk Studios. See the full list: [smoldesk/apify-scrapers](https://github.com/smoldesk/apify-scrapers).
+YouTube is one of 15 no-login scrapers by Smoldesk Studios. See the full list: [smoldesk/apify-scrapers](https://github.com/smoldesk/apify-scrapers).
