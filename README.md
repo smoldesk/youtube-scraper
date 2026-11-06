@@ -66,6 +66,8 @@ curl -X POST "https://api.apify.com/v2/acts/smoldesk~youtube-scraper/run-sync-ge
 
 Video, channel and comment records always carry the same keys, so the CSV export opens cleanly in a spreadsheet. Pipe it into Google Sheets, Make, Zapier or n8n.
 
+Only need comments or channel profiles? [YouTube Comments Scraper](https://github.com/smoldesk/youtube-comments-scraper) and [YouTube Channel Scraper](https://github.com/smoldesk/youtube-channel-scraper) do one job each with simpler input.
+
 ## Pricing
 
 Pay per result. No monthly fee.
@@ -102,4 +104,4 @@ Yes. Set `publishedAfter` to `7 days` and schedule the run weekly.
 
 ## More scrapers
 
-YouTube is one of 15 no-login scrapers by Smoldesk Studios. See the full list: [smoldesk/apify-scrapers](https://github.com/smoldesk/apify-scrapers).
+YouTube is one of 17 no-login scrapers by Smoldesk Studios. See the full list: [smoldesk/apify-scrapers](https://github.com/smoldesk/apify-scrapers).
