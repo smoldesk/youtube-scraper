@@ -1,5 +1,7 @@
 # YouTube Scraper
 
+![YouTube Scraper](https://raw.githubusercontent.com/smoldesk/apify-scrapers/main/assets/youtube/banner.webp)
+
 Scrape YouTube search results, channel videos, Shorts, playlists, channel profiles and comments. No API key, no quota, no login. Runs on [Apify](https://apify.com/smoldesk/youtube-scraper).
 
 ## What you get
