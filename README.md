@@ -8,7 +8,9 @@ Scrape YouTube search results, channel videos, Shorts, playlists, channel profil
 
 - **Search**: keyword search with filters for upload date, duration, features (4K, subtitles, live), result type and country.
 - **Videos**: title, views, likes, comment count, publish date, duration, description and its links, hashtags and chapters.
-- **Channels**: videos, Shorts and live tabs of any `@handle`, plus a profile with subscribers, total views, join date, country, links and RSS URL.
+- **Most replayed**: the moments viewers rewatch (`mostReplayed`), and the full graph as 100 slices with `includeHeatmap`.
+- **Channels**: videos, Shorts and live tabs of any `@handle`, newest, most popular or oldest first (`channelSortBy`), plus a profile with subscribers, total views, join date, country, links and RSS URL.
+- **Channel stats on every video**: total views, video count, join date and country of the uploader with `includeChannelStats`.
 - **Playlists**: every video in order, with its position.
 - **Comments and replies**: text, likes, author, reply count, pinned and hearted flags.
 - **New videos only**: `publishedAfter` stops reading a channel once it reaches older uploads.
@@ -98,6 +100,9 @@ The official API allows about 100 searches a day. This has no quota and returns 
 
 **How do I scrape all videos from a YouTube channel?**
 Put the channel in `startUrls` and set `maxResults` to 0. Add `shorts` and `streams` to `channelTabs` for those tabs.
+
+**How do I get a channel's most popular videos?**
+Set `channelSortBy` to `popular` (most viewed first) or `oldest`. It works on the videos, shorts and streams tabs.
 
 **How do I scrape YouTube comments?**
 Set `maxComments` above 0. `commentsSortBy` picks top or newest, and `maxRepliesPerComment` adds replies.
