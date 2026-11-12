@@ -72,13 +72,14 @@ Only need comments or channel profiles? [YouTube Comments Scraper](https://githu
 
 ## Pricing
 
-Pay per result. No monthly fee.
+Pay per result. No monthly fee. Prices drop on paid Apify plans.
 
-| Result | Per 1,000 |
-|---|---|
-| Video, Short or live stream | $1 |
-| Channel profile | $1 |
-| Comment or reply | $0.50 |
+| Result (per 1,000) | Free | Starter | Scale | Business |
+|---|---|---|---|---|
+| Video, Short or live stream | $1.00 | $1.00 | $0.90 | $0.75 |
+| Channel profile | $1.00 | $1.00 | $0.90 | $0.75 |
+| Comment or reply | $0.50 | $0.50 | $0.50 | $0.50 |
+
 
 ## Limits
 
